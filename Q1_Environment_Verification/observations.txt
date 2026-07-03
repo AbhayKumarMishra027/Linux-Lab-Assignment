@@ -1,0 +1,46 @@
+Command: whoami
+
+Observation:
+This command displays the username of the currently logged-in user.
+
+-------------------------------------------------
+
+Command: groups
+
+Observation:
+This command lists all the groups associated with the current user account.
+
+-------------------------------------------------
+
+Command: id
+
+Observation:
+This command displays the User ID (UID), Group ID (GID), and the groups to which the user belongs.
+
+-------------------------------------------------
+
+Command: echo $SHELL
+
+Observation:
+This command displays the default shell currently being used.
+
+-------------------------------------------------
+
+Command: pwd
+
+Observation:
+This command prints the absolute path of the current working directory.
+
+-------------------------------------------------
+
+Command: ls -la
+
+Observation:
+This command lists all files and directories, including hidden files, along with their permissions and ownership details.
+
+-------------------------------------------------
+
+Command: ping -c 4 google.com
+
+Observation:
+This command checks network connectivity by sending four packets to Google's server.
