@@ -1,0 +1,25 @@
+Storage Health Assessment Report
+
+1. Available Storage Devices
+
+The available storage devices were identified using the lsblk command.
+
+2. Mounted File Systems
+
+The mounted file systems and available storage were verified using the df -h command.
+
+3. Disk Usage
+
+The disk usage of the current workspace was checked using the du -sh command.
+
+4. Inode Utilization
+
+The inode usage of the file system was checked using the df -i command.
+
+5. Storage Health Observation
+
+The system has sufficient free storage and inode availability. No abnormal storage usage was observed during the assessment.
+
+6. Recommendation
+
+Regular monitoring of disk space and periodic cleanup of unnecessary files should be performed to maintain healthy storage utilization.
