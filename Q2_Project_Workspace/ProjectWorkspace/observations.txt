@@ -1,0 +1,34 @@
+Command: mkdir
+Observation:
+The mkdir command was used to create the project workspace and required subdirectories.
+
+-------------------------------------------------
+
+Command: touch
+Observation:
+The touch command created empty files required for the project.
+
+-------------------------------------------------
+
+Command: tree
+Observation:
+The tree command displayed the complete directory structure in a hierarchical format.
+
+-------------------------------------------------
+
+Command: ls -l
+Observation:
+This command displayed detailed information about file permissions, ownership and size.
+
+-------------------------------------------------
+
+Command: chmod
+Observation:
+The chmod command modified file and directory permissions to secure the project workspace.
+
+-------------------------------------------------
+
+Command: umask
+Observation:
+The umask command displayed the default permission mask used while creating new files and directories.
+

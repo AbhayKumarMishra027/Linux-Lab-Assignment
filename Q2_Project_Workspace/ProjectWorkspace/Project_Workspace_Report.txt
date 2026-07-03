@@ -1,0 +1,37 @@
+Project Workspace Setup Report
+
+1. Directory Structure Created
+
+ProjectWorkspace/
+├── docs/
+│   └── project_plan.txt
+├── src/
+│   └── main.sh
+└── backup/
+    └── backup.log
+
+2. File Permissions
+
+Before Modification:
+Default Linux permissions were assigned to all directories and files.
+
+After Modification:
+docs                : 700
+src                 : 750
+project_plan.txt    : 600
+main.sh             : 755
+backup.log          : 640
+
+3. Ownership Details
+
+Owner : abhay
+Group : abhay
+
+4. Umask Value
+
+The current umask value is:
+0022
+
+5. Explanation
+
+The permissions were modified to provide secure access to project files. Sensitive files are accessible only to the owner, while executable files have the required execute permission. This helps protect project data from unauthorized access.

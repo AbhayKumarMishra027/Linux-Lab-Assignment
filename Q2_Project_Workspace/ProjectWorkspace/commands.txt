@@ -1,0 +1,19 @@
+mkdir ProjectWorkspace
+cd ProjectWorkspace
+mkdir docs src backup
+touch docs/project_plan.txt
+touch src/main.sh
+touch backup/backup.log
+tree
+ls -l
+ls -l docs
+ls -l src
+ls -l backup
+chmod 700 docs
+chmod 750 src
+chmod 600 docs/project_plan.txt
+chmod 755 src/main.sh
+chmod 640 backup/backup.log
+ls -l
+ls -ld .
+umask
