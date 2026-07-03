@@ -1,0 +1,17 @@
+mkdir IOWorkspace
+cd IOWorkspace
+echo "Linux File I/O Practical" > sample.txt
+cat sample.txt
+lsof sample.txt
+tail -f sample.txt
+echo "First Line" > output.txt
+echo "Second Line" >> output.txt
+cat output.txt
+ls abc.txt 2> error.log
+cat error.log
+ls sample.txt > success.log
+ls unknown.txt 2> failure.log
+cat success.log
+cat failure.log
+pwd
+

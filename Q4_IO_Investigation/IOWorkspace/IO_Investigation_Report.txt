@@ -1,0 +1,25 @@
+File Access and I/O Investigation Report
+
+1. Open Files
+
+The lsof command was used to identify the processes accessing the file. The output showed that the file sample.txt was opened by the tail process.
+
+2. File Descriptor Observation
+
+The file descriptor displayed by lsof indicated that the process had opened the file for reading.
+
+3. Output Redirection
+
+The '>' operator created a new file and redirected the output to it. The '>>' operator appended additional data without overwriting the existing content.
+
+4. Error Redirection
+
+The '2>' operator redirected error messages into a separate log file while keeping the terminal clean.
+
+5. Resource Observation
+
+The lsof command helped identify the process ID, user, file descriptor and file being accessed.
+
+6. Conclusion
+
+This practical demonstrated how Linux manages file input/output using file descriptors and how standard output and error streams can be redirected to different files.

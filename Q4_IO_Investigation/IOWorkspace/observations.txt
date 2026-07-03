@@ -1,0 +1,39 @@
+Command: lsof
+
+Observation:
+The lsof command displayed the process currently accessing the file.
+
+-------------------------------------------------
+
+Command: tail -f
+
+Observation:
+The tail command continuously monitored the file and kept it open for reading.
+
+-------------------------------------------------
+
+Command: >
+
+Observation:
+The '>' operator redirected standard output to a file and replaced any existing content.
+
+-------------------------------------------------
+
+Command: >>
+
+Observation:
+The '>>' operator appended new data to an existing file without removing previous content.
+
+-------------------------------------------------
+
+Command: 2>
+
+Observation:
+The '2>' operator redirected standard error messages to a separate file.
+
+-------------------------------------------------
+
+Command: cat
+
+Observation:
+The cat command displayed the contents of the created files for verification.
