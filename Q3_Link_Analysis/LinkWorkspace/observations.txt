@@ -1,0 +1,39 @@
+Command: ln
+
+Observation:
+The ln command created a hard link that shares the same inode as the original file.
+
+-------------------------------------------------
+
+Command: ln -s
+
+Observation:
+The ln -s command created a symbolic link that points to the original file path.
+
+-------------------------------------------------
+
+Command: ls -li
+
+Observation:
+The ls -li command displayed inode numbers, making it easy to compare hard and symbolic links.
+
+-------------------------------------------------
+
+Command: stat
+
+Observation:
+The stat command displayed detailed information about each file, including inode number, permissions, owner and timestamps.
+
+-------------------------------------------------
+
+Command: rm
+
+Observation:
+After deleting the original file, the hard link continued to work while the symbolic link became broken.
+
+-------------------------------------------------
+
+Command: cat
+
+Observation:
+The cat command verified the contents of the files before and after deleting the original file.

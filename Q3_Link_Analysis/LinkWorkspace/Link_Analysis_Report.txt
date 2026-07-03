@@ -1,0 +1,25 @@
+Link Analysis Report
+
+1. Original File
+
+A file named original.txt was created for link analysis.
+
+2. Hard Link
+
+A hard link named hardlink.txt was created using the original file. Both files shared the same inode number, indicating that they refer to the same data on the disk.
+
+3. Symbolic Link
+
+A symbolic link named softlink.txt was created. It pointed to the original file but had a different inode number.
+
+4. Inode Analysis
+
+The ls -li command showed that original.txt and hardlink.txt had the same inode number, whereas softlink.txt had a different inode number.
+
+5. File Deletion Test
+
+After deleting original.txt, the hard link continued to work because it still referenced the original data. The symbolic link became inaccessible because it only stored the path to the original file.
+
+6. Conclusion
+
+This practical demonstrated the difference between hard links and symbolic links. Hard links directly reference file data, whereas symbolic links only reference the file path.

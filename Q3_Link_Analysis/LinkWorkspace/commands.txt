@@ -1,0 +1,15 @@
+mkdir LinkWorkspace
+cd LinkWorkspace
+echo "Linux Lab Assignment Q3" > original.txt
+cat original.txt
+ln original.txt hardlink.txt
+ln -s original.txt softlink.txt
+ls -li
+stat original.txt
+stat hardlink.txt
+stat softlink.txt
+rm original.txt
+ls -l
+cat hardlink.txt
+cat softlink.txt
+pwd
